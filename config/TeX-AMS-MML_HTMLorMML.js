@@ -41,7 +41,6 @@ MathJax.Ajax.Preloading(
 );
 
 MathJax.Hub.Config({
-  menuSettings: {zoom: "Double-Click"},
   extensions: ['[a11y]/accessibility-menu.js']
 });
 
