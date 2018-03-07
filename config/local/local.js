@@ -28,6 +28,10 @@
  */
 
 
+MathJax.Hub.Config({
+  menuSettings: {zoom: "Hover"}
+});
+
 MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
   var TEX = MathJax.InputJax.TeX;
 
