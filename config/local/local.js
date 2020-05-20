@@ -29,7 +29,7 @@
 
 
 MathJax.Hub.Config({
-  menuSettings: {zoom: "Hover"}
+  menuSettings: {zoom: "Click"}
 });
 
 MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
